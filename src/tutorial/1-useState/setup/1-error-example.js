@@ -1,7 +1,13 @@
 import React from 'react';
-
+let title = 'Simple Example Title';
+const clickHandler = () =>{
+  console.log(title);
+}
 const ErrorExample = () => {
-  return <h2>useState error example</h2>;
+  return <React.Fragment>
+    <h1>{title}</h1>
+    <button type="button" className="btn" onClick={clickHandler}>ClickMeTochange</button>
+  </React.Fragment>
 };
 
 export default ErrorExample;
