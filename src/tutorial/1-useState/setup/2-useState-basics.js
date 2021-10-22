@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+//component should be Upper case 
+//must be in the function/component body
+//cannot call conditinaly
 
 const UseStateBasics = () => {
   console.log(useState);
